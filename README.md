@@ -1,0 +1,2 @@
+# linux-maven-plugins
+本地maven仓库的plugins版本配置，为了防止因网络问题无法下载最新版本而造成无法部署项目
