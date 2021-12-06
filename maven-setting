@@ -1,0 +1,91 @@
+    <proxies>
+            <active>true</active>
+            <protocol>http</protocol>
+            <host>proxy.somewhere.com</host>
+            <port>8080</port>
+            <username>proxyuser</username>
+            <password> proxypassword</password>
+            <nonProxyHosts>www.google.com|*.somewhere.com</nonProxyHosts>
+    </proxies>
+
+
+      <mirrors>
+
+            <mirror>
+            <id>alimaven</id>
+            <name>aliyun maven</name>
+            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+            <mirrorOf>central</mirrorOf>
+            </mirror>
+
+             <mirror>
+            <id>huaweicloud</id>
+                    <name>mirror from maven huaweicloud</name>
+                <url>https://mirror.huaweicloud.com/repository/maven/</url>
+                <mirrorOf>central</mirrorOf>
+            </mirror>
+
+            <mirror>
+                <id>ibiblio</id>
+                <name>Mirror from Maven ibiblio</name>
+                <url>http://mirrors.ibiblio.org/pub/mirrors/maven2/</url>
+                <mirrorOf>central</mirrorOf>
+            </mirror>
+
+
+        <mirror>
+        <id>central</id>
+        <name>Maven Repository Switchboard</name>
+        <url>https://repo1.maven.org/maven2/</url>
+        <mirrorOf>central</mirrorOf>
+        </mirror>
+
+        <mirror>
+            <id>central</id>
+            <name>Maven Repository Switchboard</name>
+            <url>https://repo1.maven.apache.org/maven2/</url>
+            <mirrorOf>central</mirrorOf>
+        </mirror>
+
+        <mirror>
+                <id>sprintio</id>
+                <mirrorOf>central</mirrorOf>
+                <name>Human Readable Name for this Mirror.</name>
+                <url>https://repo.spring.io/libs-snapshot/</url>
+        </mirror>
+
+        <mirror>
+                <id>ui</id>
+                 <name>Mirror from UK</name>
+                 <url>http://uk.maven.org/maven2/</url>
+                 <mirrorOf>central</mirrorOf>
+        </mirror>
+
+         <mirror>
+                        <id>jboss-public-repository-group</id>
+                        <name>JBoss Public Repository Group</name>
+                        <url>http://repository.jboss.org/nexus/content/groups/public</url>
+                        <mirrorOf>central</mirrorOf>
+         </mirror>
+
+         <mirror>
+                        <id>google</id>
+                        <name>google maven</name>
+                        <url>https://maven.google.com/</url>
+                        <mirrorOf>central</mirrorOf>
+         </mirror>
+
+         <mirror>
+                        <id>maven.net.cn</id>
+                        <name>Mirror from Maven in china</name>
+                        <url>http://maven.net.cn/content/groups/public/</url>
+                        <mirrorOf>central</mirrorOf>
+         </mirror>
+
+         <mirror>
+                        <id>CN</id>
+                <name>OSChinaCentral</name>
+                <url>http://maven.oschina.net/content/groups/public/</url>
+                <mirrorOf>central</mirrorOf>
+         </mirror>
+     <mirrors>
